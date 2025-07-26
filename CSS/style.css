@@ -83,6 +83,17 @@ img {
   border-radius: 8px;
   box-shadow: 10px 10px 8px rgba(0,0,0,0.1);
 }
+/* ===Technologies Grid */
+#Technologies ul{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  transition: transform 0.3s ease-in-out;
+}
 
 /* ==== Projects Grid ==== */
 #Projects {
@@ -101,7 +112,7 @@ img {
   box-shadow: 10px 10px 8px rgba(0,0,0,0.1);
 }
 
-#Projects div:hover {
+#Projects div:hover,#Technologies div:hover {
   transform: translateY(-5px);
 }
 
